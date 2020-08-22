@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-    </list>
+    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,6 +95,21 @@
       <workItem from="1598122268238" duration="163000" />
       <workItem from="1598122445381" duration="343000" />
     </task>
+    <task id="LOCAL-00001" summary="oh nooooo">
+      <created>1598125124827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598125124827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="copy cat">
+      <created>1598125330989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598125330989</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +132,19 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3237" y="241" key="RollbackChangesDialog" timestamp="1598125175680">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3237" y="241" key="RollbackChangesDialog/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125175680" />
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598125339851">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125339851" />
+    <state x="3337" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598125180664">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3337" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125180664" />
   </component>
 </project>

@@ -13,6 +13,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="FollowCamera.cs" t="Include" />
+          <e p="MouseLook.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
         </e>
       </e>
