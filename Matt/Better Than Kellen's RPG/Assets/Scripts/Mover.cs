@@ -5,33 +5,30 @@ using UnityEngine.AI;
 
 public class Mover : MonoBehaviour
 {
+    [SerializeField] Transform target;
 
-    public Transform target;
-
-    public Ray lastRay;
-
-    private 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    // Udemy course movement
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             MoveToCursor();
         }
+
+        
     }
 
-    private void MoveToCursor() {
+    // For ray-casting.
+    void MoveToCursor()
+    {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         bool hasHit = Physics.Raycast(ray, out hit);
-        if (hasHit) {
+
+        if (hasHit)
+        {
             GetComponent<NavMeshAgent>().destination = hit.point;
+            Debug.DrawRay(ray.origin, ray.direction * 100);
         }
     }
 }
