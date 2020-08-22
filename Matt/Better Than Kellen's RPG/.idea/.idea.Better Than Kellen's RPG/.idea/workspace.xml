@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="" />
+    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/Green Grass Terrain.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/Green Grass Terrain.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sandbox Terrain.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sandbox Terrain.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/NewLayer.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/NewLayer.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +119,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598125330989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="copy cattt">
+      <created>1598125373495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598125373495</updated>
+    </task>
+    <task id="LOCAL-00004" summary="stuff">
+      <created>1598125386468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598125386468</updated>
+    </task>
+    <task id="LOCAL-00005" summary="imported some assets">
+      <created>1598125792697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598125792697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,16 +163,20 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="copy cattt" />
+    <MESSAGE value="stuff" />
+    <MESSAGE value="imported some assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="imported some assets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3237" y="241" key="RollbackChangesDialog" timestamp="1598125175680">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state x="3237" y="241" key="RollbackChangesDialog/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125175680" />
-    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598125339851">
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598126238205">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
-    <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125339851" />
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598126238205" />
     <state x="3337" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598125180664">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
