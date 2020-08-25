@@ -20,15 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/Green Grass Terrain.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/Green Grass Terrain.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sandbox Terrain.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Sandbox Terrain.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Hut_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Hut_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Village_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Village_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_010.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_010.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Prop_Crate_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Prop_Crate_01.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/shelf/Uncommitted_changes_before_Update_at_8_22_2020_14_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/shelf/Uncommitted_changes_before_Update_at_8_22_2020_14_59__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/NewLayer.terrainlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/NewLayer.terrainlayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +75,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +130,7 @@
       <workItem from="1598121173020" duration="1041000" />
       <workItem from="1598122268238" duration="163000" />
       <workItem from="1598122445381" duration="343000" />
+      <workItem from="1598395410826" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="oh nooooo">
       <created>1598125124827</created>
@@ -140,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598125792697</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="playing with new assets">
+      <created>1598126986264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598126986264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,17 +200,18 @@
     <MESSAGE value="copy cattt" />
     <MESSAGE value="stuff" />
     <MESSAGE value="imported some assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="imported some assets" />
+    <MESSAGE value="playing with new assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="playing with new assets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3237" y="241" key="RollbackChangesDialog" timestamp="1598125175680">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state x="3237" y="241" key="RollbackChangesDialog/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125175680" />
-    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598126238205">
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598126989311">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
-    <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598126238205" />
+    <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598126989311" />
     <state x="3337" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598125180664">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
