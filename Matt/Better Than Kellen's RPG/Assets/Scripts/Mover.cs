@@ -9,17 +9,25 @@ public class Mover : MonoBehaviour
     private NavMeshAgent nav;
     private Animator ant;
     private Vector3 velocity;
+    private bool clicking = false;
     [SerializeField] Transform target;
 
     // Udemy course movement
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || clicking)
         {
+            clicking = true;
             Debug.Log("moving");
             MoveToCursor();
         }
-        
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            clicking = false;
+        }
+
+        UpdateAnimator();
 
     }
 
@@ -27,12 +35,14 @@ public class Mover : MonoBehaviour
     {
         velocity = nav.velocity;
         Vector3 localVelocity = transform.InverseTransformDirection(velocity);
-        
+        float speed = localVelocity.z;
+        ant.SetFloat("forwardSpeed", speed);
     }
 
     private void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        ant = GetComponent<Animator>();
     }
 
     // For ray-casting.

@@ -20,40 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Hut_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Hut_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Village_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Bld_Village_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_010.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_010.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Env_Tree_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Prop_Crate_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/SM_Prop_Crate_01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/shelf/Uncommitted_changes_before_Update_at_8_22_2020_14_59__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/shelf/Uncommitted_changes_before_Update_at_8_22_2020_14_59__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/Character.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +42,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Documents/Unity/repo/ceoRPG/Matt/Better Than Kellen's RPG/Assets/Scripts/Mover.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +103,7 @@
       <workItem from="1598121173020" duration="1041000" />
       <workItem from="1598122268238" duration="163000" />
       <workItem from="1598122445381" duration="343000" />
-      <workItem from="1598395410826" duration="1265000" />
+      <workItem from="1598395410826" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="oh nooooo">
       <created>1598125124827</created>
@@ -174,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598126986264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- blend trees">
+      <created>1598398921997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598398921997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +181,8 @@
     <MESSAGE value="stuff" />
     <MESSAGE value="imported some assets" />
     <MESSAGE value="playing with new assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="playing with new assets" />
+    <MESSAGE value="- blend trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="- blend trees" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3237" y="241" key="RollbackChangesDialog" timestamp="1598125175680">
