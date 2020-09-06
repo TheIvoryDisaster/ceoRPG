@@ -9,23 +9,11 @@ public class Mover : MonoBehaviour
     private NavMeshAgent nav;
     private Animator ant;
     private Vector3 velocity;
-    private bool clicking = false;
     [SerializeField] Transform target;
 
     // Udemy course movement
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) || clicking)
-        {
-            clicking = true;
-            Debug.Log("moving");
-            MoveToCursor();
-        }
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            clicking = false;
-        }
 
         UpdateAnimator();
 
@@ -45,7 +33,9 @@ public class Mover : MonoBehaviour
         ant = GetComponent<Animator>();
     }
 
-    // For ray-casting.
+    /// <summary>
+    /// Gets the cursor position and sets its raycast hit as the new navmesh agent target
+    /// </summary>
     void MoveToCursor()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -54,8 +44,17 @@ public class Mover : MonoBehaviour
 
         if (hasHit)
         {
-            nav.destination = hit.point;
+            MoveTo(hit.point);
             Debug.DrawRay(ray.origin, ray.direction * 100);
         }
+    }
+
+    /// <summary>
+    /// Sets the navmesh destination
+    /// </summary>
+    /// <param name="hit">Navmesh destination target</param>
+    public void MoveTo(Vector3 hit)
+    {
+        nav.destination = hit;
     }
 }
