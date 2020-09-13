@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="" />
+    <list default="true" id="43529132-5eb4-45cf-8807-9a8dc24f9216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better Than Kellen's RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Follow Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Follow Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +52,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +111,8 @@
       <workItem from="1598122268238" duration="163000" />
       <workItem from="1598122445381" duration="343000" />
       <workItem from="1598395410826" duration="3572000" />
-      <workItem from="1599419759611" duration="2074000" />
+      <workItem from="1599419759611" duration="2103000" />
+      <workItem from="1600021445843" duration="7150000" />
     </task>
     <task id="LOCAL-00001" summary="oh nooooo">
       <created>1598125124827</created>
@@ -162,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599422706397</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- edited scene a bit">
+      <created>1599422739997</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599422739997</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,16 +214,18 @@
     <MESSAGE value="- blend trees" />
     <MESSAGE value="- working on camera rotation" />
     <MESSAGE value="- organized project a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="- organized project a bit" />
+    <MESSAGE value="- edited scene a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="- edited scene a bit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3237" y="241" key="RollbackChangesDialog" timestamp="1598125175680">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state x="3237" y="241" key="RollbackChangesDialog/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598125175680" />
-    <state x="3112" y="240" key="Vcs.Push.Dialog.v2" timestamp="1598401856502">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1599422744076">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.9.1536.824/1920.0.1536.824@0.0.1920.1040" timestamp="1599422744076" />
     <state x="3112" y="240" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@2560.0.1920.1040" timestamp="1598401856502" />
     <state x="3337" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598125180664">
       <screen x="2560" y="0" width="1920" height="1040" />

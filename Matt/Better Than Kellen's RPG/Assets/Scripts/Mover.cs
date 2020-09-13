@@ -56,5 +56,28 @@ public class Mover : MonoBehaviour
     public void MoveTo(Vector3 hit)
     {
         nav.destination = hit;
+        nav.isStopped = false;
+    }
+    
+    /// <summary>
+    /// Sets the navmesh destination
+    /// </summary>
+    /// <param name="hit">Navmesh destination target</param>
+    public void MoveTo(Vector3 hit, float stopRange)
+    {
+        nav.isStopped = false;
+        nav.destination = hit;
+        nav.stoppingDistance = stopRange;
+    }
+
+    public void Stop()
+    {
+        nav.isStopped = true;
+    }
+
+    public void StartMoveAction(Vector3 destination)
+    {
+        GetComponent<Fighter>().Cancel();
+        MoveTo(destination);
     }
 }

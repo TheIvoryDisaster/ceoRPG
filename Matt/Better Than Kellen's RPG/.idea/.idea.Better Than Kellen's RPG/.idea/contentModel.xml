@@ -12,6 +12,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Combat" t="Include">
+            <e p="CombatTarget.cs" t="Include" />
+            <e p="Fighter.cs" t="Include" />
+          </e>
           <e p="Controller" t="Include">
             <e p="PlayerController.cs" t="Include" />
           </e>

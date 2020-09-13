@@ -1,7 +1,9 @@
 ﻿using System;
+using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
+using UnityEngine.Analytics;
 
-    public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
     {
         public Mover mover;
         private bool clicking = false;
@@ -13,28 +15,61 @@ using UnityEngine;
         
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0) || clicking)
-            {
-                clicking = true;
-                MoveToCursor();
-            }
+            if (InteractWithCombat()) return;
+            if (InteractWithMovement()) return;
             
-            if (Input.GetMouseButtonUp(0))
-            {
-                clicking = false;
-            }
         }
 
-        void MoveToCursor()
+        private bool InteractWithCombat()
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            foreach (var hit in hits)
+            {
+                CombatTarget target = hit.transform.GetComponent<CombatTarget>();
+                if (target == null) continue;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    GetComponent<Fighter>().Attack(target);
+                }
+                return true;
+            }
+            return false;
+        }
+
+        private bool InteractWithMovement()
+        {
             RaycastHit hit;
-            bool hasHit = Physics.Raycast(ray, out hit);
+            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
+            if (hasHit)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    mover.StartMoveAction(hit.point);
+                }
+                return true;
+            }
+            return false;
+        }
+
+        bool MoveToCursor()
+        {
+            RaycastHit hit;
+            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
 
             if (hasHit)
             {
-                mover.MoveTo(hit.point);
-                Debug.DrawRay(ray.origin, ray.direction * 100);
+                if (Input.GetMouseButtonDown(0))
+                {
+                    mover.MoveTo(hit.point);
+                }
+                return true;
             }
+            return false;
+        }
+
+        private static Ray GetMouseRay()
+        {
+            return Camera.main.ScreenPointToRay(Input.mousePosition);
         }
     }
